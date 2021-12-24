@@ -1,38 +1,79 @@
-.App {
+body {
+  background-color: #6E3CBC;
+}
+
+.app {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app__container {
   display: flex;
   flex-direction: column;
+  width: 350px;
+  height: 450px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid #000;
+  border-radius: 25px;
+  margin: 15vh auto;
+  padding: 25px;
+  background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.app__title {
+  color: #7267CB;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__cityname {
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 25px;
 }
+
+.app i {
+  font-size: 30px;
+  color: #B8E4F0;
+}
+
+.app__temperature {
+  color: #6495ed;
+  margin-bottom: 0;
+}
+
+.app__grades {
+  color: #000;
+  font-weight: bold;
+}
+
+.humidity {
+  margin-top: 0;
+  color: #6495ed;
+}
+
+.humidity__percentage {
+  color: #000;
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.app button {
+  background-color: #6495ed;
+  width: 150px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 12px;
+  color: #ffffff;
+}
+
+.weather {
+  margin-top: 0;
+  color: #6495ed;
+}
+
+.weather__type {
+  color: #000;
+  margin-top: 0;
+  font-weight: bold;
+}
+
